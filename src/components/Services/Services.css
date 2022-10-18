@@ -17,6 +17,7 @@
 }
 .services-div{
     display: flex;
+    flex-wrap: wrap;
     gap: 5rem;
     justify-content: center;
 }

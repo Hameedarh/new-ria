@@ -39,7 +39,7 @@ function Contact() {
                         </div>
                         <div>
                             <h4>Email</h4>
-                            <a href="mailto:abisolahamidat@gmail.com"><p className='con-info'>abisolahamidat@gmail.com</p></a>
+                            <a href="mailto:abisolahamidat@gmail.com"><p className='con-info info2'>abisolahamidat@gmail.com</p></a>
                         </div>
                     </div>
                 </div>
