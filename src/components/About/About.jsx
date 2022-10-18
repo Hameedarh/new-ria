@@ -4,7 +4,7 @@ import { Medal, ThumbsUp, Smiley} from 'phosphor-react'
 
 function About() {
   return (
-    <div className='about-container'>
+    <div className='about-container' id='about'>
       <div className='about-cont'>
         <div className='about-flex'>
           <div className='div-box'>

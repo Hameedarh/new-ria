@@ -14,7 +14,7 @@ function Hamburger() {
           <ul className='hamburger'>
             <a href='#Home'><li>Home</li></a>
             <a href='#services'><li>Service</li></a>
-            <a href='#gallery'><li>Gallery</li></a>
+            <a href='#about'><li>About us</li></a>
             <a href='#contact'><li>Contact</li></a>
           </ul>
         </div>

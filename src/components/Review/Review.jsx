@@ -12,7 +12,7 @@ function Review() {
                 <div>
                     <h2>What Clients say?</h2>
                     <div className='review'>
-                        <h4>My car became new. As if it came out of the factory.</h4>
+                        <p>My car became new. As if it came out of the factory.</p>
                             <h4>Akan Atia</h4>
                         <hr/>
                     </div>

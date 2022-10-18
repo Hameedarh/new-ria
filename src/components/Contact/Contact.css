@@ -1,6 +1,6 @@
 .cont-container{
     width: 100%;
-    background-color: #2d2d2d;
+    background-color: whitesmoke;
     height: 400px;
 }
 .cont-cont{
@@ -10,11 +10,12 @@
 }
 .cont-flex{
     display: flex;
-   gap: 1rem;
+    justify-content: space-between;
 }
 
 .con-name{
     display: flex;
+    flex-direction: column;
     /* margin-top: 3rem; */
     gap: 10px;
 }
@@ -22,32 +23,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: whitesmoke;
+    color: #2d2d2d;
+}
+.cont-container a{
+    color: #2d2d2d;
 }
 .con-name span{
     color: rgba(52,152,219,1);
 }
-.con-name img{
-    width: 40px;
-    height: 40px;
-}
-.con-icons{
-    display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-.con-icons h4{
-    color: white;
-}
-.round-div{
-    background-color: white ;
-    border: 1px solid white ;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45px;
-    height: 45px;
+.cont-container h4{
+    color: #2d2d2d;
 }
 .map{
     width: 30%;
@@ -77,33 +62,28 @@
     }
     .cont-flex{
         flex-direction: column;
+        gap: 20px;
     }
     .con-icons h4{
         font-size: 0.8rem;
-    }
-    .round-div{
-        width: 45px;
-        height: 45px;
     }
     .map{
         width: 100%;
     }
     .mapouter{
-        height: 300px;
+        height: 290px;
     }
     .gmap_canvas {
-        height:300px;
+        height:290px;
     }
     .gmap_iframe {
-        height:300px!important;
+        height:290px!important;
+    }
+    .con-name h3{
+        margin-left: 2rem;
     }
 }
-@media screen and (max-width:400px){
-    .round-div{
-        width: 30px;
-        height: 30px;
-    }
-}
+
 @media screen and (max-width:250px){
     .info2{
         font-size: 8px;
