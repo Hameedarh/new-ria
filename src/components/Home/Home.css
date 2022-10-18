@@ -1,0 +1,112 @@
+.Home-container{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    position: relative;
+}
+.Home-container img{
+    width: 100%;
+    height: 700px;
+    opacity: 0.5;
+    position: relative;
+}
+.text-div{
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    left: 9rem;
+    text-align: center;
+    color: white;
+    /* z-index: 13; */
+}
+.text-div h1{
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}
+.text-div p{
+    font-size: 1.3rem;
+    /* font-weight: bolder; */
+    word-spacing: 0.7rem;
+}
+.top-but{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2rem;
+}
+.top-but button{
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(52,152,219,1);
+    background-color:#494842;
+    color:white ;
+    font-family: 'Bree Serif', sans-serif;
+}
+.top-but button:hover{
+  border: 1px solid rgba(52,152,219,1);
+  background-color:rgba(52,152,219,1);
+  color: white;
+}
+@media screen and (max-width:1050px){
+    .text-div{
+      left: 8.3rem;
+    }
+  }
+  @media screen and (max-width:800px){
+    .text-div{
+      left: 6rem;
+    }
+    .Home-container, .Home-container img{
+      height: 550px;
+    }
+    .text-div h1{
+      font-size: 2rem;
+      letter-spacing: 0.1rem;
+     }
+  }
+  @media screen and (max-width:500px){
+    
+    .text-div h1{
+     font-size: 2rem;
+     letter-spacing: 0.1rem;
+    }
+    .text-div{
+      left: 3rem;
+    }
+    .text-div p{
+      font-size: 1rem;
+      word-spacing: 0.4rem;
+  }
+  }
+  @media screen and (max-width:350px){
+    .text-div h1{
+      font-size: 1.5rem;
+     }
+     .text-div{
+       left: 2rem;
+     }
+     .text-div p{
+        text-align: center;
+       font-size: 1rem;
+       word-spacing: 0.4rem;
+   }
+   .top-but button{
+    padding: 15px 30px;
+    font-size: 12px;
+    }
+    .Home-container img, .Home-container{
+      height: 550px;
+    }
+  }
+  @media screen and (max-width:350px){
+    .text-div h1{
+      font-size: 1rem;
+     }
+     .text-div p{
+      font-size: 0.8rem;
+     }
+     .top-but button{
+      padding: 10px 20px;
+      font-size: 10px;
+      }
+  }

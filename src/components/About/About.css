@@ -1,0 +1,127 @@
+.about-container{
+    width: 100%;
+    background-color: white;
+}
+.about-cont{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.about-flex{
+    padding: 25% 0 7%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+  
+}
+.div-box{
+    border: 4px double rgba(52,152,219,1);
+    width: 200px;
+    height: 270px;
+    flex: 40%;
+    margin-left: 3rem;
+}
+.top-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: -10%;
+    gap: 2rem;
+    left: -1rem;
+}
+.top-box{
+    width: 320px;
+    height: 200px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: rgba(52,152,219,1);
+}
+.box1{
+    border: 1px solid white;
+    background-color: white;
+}
+.box2{
+    border: 1px solid rgba(52,152,219,1);
+    background-color: rgba(52,152,219,1);
+    color: white;
+}
+.box1:hover{
+    border: 1px solid rgba(52,152,219,1);
+    background-color: rgba(52,152,219,1);
+    color: white;
+}
+.box2:hover{
+    border: 1px solid white;
+    background-color: white;
+    color:  rgba(52,152,219,1);
+}
+.about-flex p{
+    text-align: justify;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgd{
+    position: absolute;
+    top: 38%;
+}
+@media screen and (max-width:1050px){
+    .imgd{
+        width: 205px;
+        top: 36%;
+    }
+}
+@media screen and (max-width:800px){
+    .div-box, .imgd{
+        display: none;
+     }
+     .about-flex{
+        padding: 35% 0px 20px;
+      }
+}
+@media screen and (max-width:500px){
+    .top-div{
+        flex-direction: column;
+        position:relative;
+    }
+    .about-flex{
+      flex-direction: column-reverse;
+      padding: 40px 0px 20px;
+    }
+    .div-box, .imgd{
+       display: none;
+    }
+    .about-cont{
+        padding: 0px 0px 30px;
+    }
+}
+@media screen and (max-width:350px){
+    .top-box{
+        width: 250px;
+        height: 200px;
+    }
+    .top-div{
+        left: 0rem;
+    }
+}
+@media screen and (max-width:280px){
+    .top-box{
+        width: 200px;
+        height: 200px;
+    }
+    .top-div{
+        left: 0rem;
+    }
+}

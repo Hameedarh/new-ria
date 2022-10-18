@@ -1,0 +1,37 @@
+.ser-container{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0px 0px 70px;
+}
+.ser-cont{
+    width: 80%;
+    margin: 0 auto;
+}
+.ser-text{
+    /* border: 1px solid pink; */
+    margin-bottom: 2rem ;
+    padding-top: 2rem;
+}
+.center-text{
+    text-align: center;
+}
+.services-div{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+.serv{
+    /* border: 1px solid blue; */
+    width: 200px;
+    height: 170px;
+}
+.serv img{
+    width: 200px;
+    height: 170px;
+}
+@media screen and (max-width:500px){
+    .services-div{
+        flex-direction: column;
+        align-items: center;
+    }
+}
