@@ -32,7 +32,8 @@
     position: absolute;
     top: -10%;
     gap: 2rem;
-    left: -1rem;
+    /* left: -1rem; */
+    /* border: 1px solid black; */
 }
 .top-box{
     width: 320px;
@@ -110,11 +111,11 @@
 }
 @media screen and (max-width:350px){
     .top-box{
+        align-self: center;
         width: 250px;
         height: 200px;
     }
     .top-div{
-        width: fit-content;
         left: 1rem;
     }
 }
