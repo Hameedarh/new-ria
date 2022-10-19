@@ -57,9 +57,21 @@
     width:100%; 
 }
 
+@media screen and (max-width:800px){
+    .cont-flex{
+        flex-wrap: wrap;
+        gap: 0.2rem;
+    }
+    .map{
+        width: 100%;
+    }
+    .cont-container{
+        height: 600px;
+    }
+}
 @media screen and (max-width:500px){
     .cont-container{
-        height: 700px;
+        height: 720px;
     }
     .cont-flex{
         flex-direction: column;

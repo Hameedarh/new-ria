@@ -14,8 +14,8 @@ function About() {
             <div>
               <p style={{color:'rgba(52,152,219,1)'}}>RIA AUTOREFURBISHING CENTER</p>
               <p className='about-flexhead'>About Us</p>
-              <p className='about-flexp'>RIA Auto Refurbishing Centre is the leading destination for vehicle refurbishment in Abuja.</p>
-              <p className='about-flexp'>We use high quality sikkens products: a highly durable, high build, solvent-borne opaque that provides a satin paint-like finish on exterior surfaces.</p>
+              <p className='about-flexp'>RIA Auto Refurbishing Centre is the leading destination for vehicle refurbishment in Abuja.
+              We use high quality sikkens products: a highly durable, high build, solvent-borne opaque that provides a satin paint-like finish on exterior surfaces.</p>
             </div>
           </div>
         </div>
