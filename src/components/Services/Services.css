@@ -15,6 +15,10 @@
 .center-text{
     text-align: center;
 }
+.text2{
+    font-size: 22px;
+
+}
 .services-div{
     display: flex;
     flex-wrap: wrap;

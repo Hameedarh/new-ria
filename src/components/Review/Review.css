@@ -10,6 +10,9 @@
     display: flex;
     gap: 3rem;
 }
+.rev-head{
+    font-size: 22px;
+}
 .rev-img{
     background-color: rgb(28, 29, 29);
     position: relative;

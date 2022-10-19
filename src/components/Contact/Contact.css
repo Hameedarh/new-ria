@@ -31,8 +31,9 @@
 .con-name span{
     color: rgba(52,152,219,1);
 }
-.cont-container h4{
+.phead{
     color: #2d2d2d;
+    font-weight: bold;
 }
 .map{
     width: 30%;

@@ -17,22 +17,22 @@ function Contact() {
                     </div>
                 </div>
                 <div>
-                    <h4>Quick Links</h4>
+                    <p className='phead'>Quick Links</p>
                     <a href="#Home" ><p>Home</p></a>
                     <a href="#about" ><p>About Us</p></a>
                     <a href="#services"><p>Services</p></a>
                 </div>
                 <div className='con-icons'>
                     <div>
-                        <h4>Location</h4>
+                        <p className='phead'>Location</p>
                         <p style={{color:"#2d2d2d"}}>Plot 1486, Cadastral Zone C12 Kabusa District, Abuja</p>
                     </div>
                     <div>
-                        <h4>Phone Number</h4>
+                        <p className='phead'>Phone Number</p>
                         <a href="https://wa.me/08033041929" ><p  className='con-info'>08033041929</p></a>
                     </div>
                     <div>
-                        <h4>Email</h4>
+                        <p className='phead'>Email</p>
                         <a href="mailto:abisolahamidat@gmail.com"><p className='con-info info2'>abisolahamidat@gmail.com</p></a>
                     </div>
                 </div>

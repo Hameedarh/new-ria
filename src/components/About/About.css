@@ -65,7 +65,10 @@
     background-color: white;
     color:  rgba(52,152,219,1);
 }
-.about-flex p{
+.about-flexhead{
+    font-size: 22px;
+}
+.about-flexp{
     text-align: justify;
 }
 .text-box{

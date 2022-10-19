@@ -5,8 +5,8 @@ function Services() {
     <div className='ser-container' id='services'>
       <div className='ser-cont'>
         <div className='ser-text'>
-          <h4 style={{color:'rgba(52,152,219,1)'}} className="center-text">WHAT YOU GET FROM US</h4>
-          <h2 className="center-text">Our Services</h2>
+          <p style={{color:'rgba(52,152,219,1)'}} className="center-text">WHAT YOU GET FROM US</p>
+          <p className="center-text text2">Our Services</p>
           <p>
             We use <span style={{color:"rgb(52,152,219) "}}>High-Quality</span> paints, automated baking oven, car waxing/buffing to ensure high quality of service and a glossy finish is delivered to our prestigious clients.
           </p>

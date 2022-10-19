@@ -10,10 +10,10 @@ function Review() {
             </div>   
             <div className='rev-text'>
                 <div>
-                    <h2>What Clients say?</h2>
+                    <p className='rev-head'>What Clients say?</p>
                     <div className='review'>
                         <p>My car became new. As if it came out of the factory.</p>
-                            <h4>Akan Atia</h4>
+                            <p>Akan Atia</p>
                         <hr/>
                     </div>
                 </div>
