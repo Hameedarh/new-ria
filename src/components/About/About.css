@@ -95,6 +95,7 @@
     .top-div{
         flex-direction: column;
         position:relative;
+
     }
     .about-flex{
       flex-direction: column-reverse;
@@ -113,6 +114,7 @@
         height: 200px;
     }
     .top-div{
+        width: fit-content;
         left: 1rem;
     }
 }
