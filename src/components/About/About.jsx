@@ -8,7 +8,7 @@ function About() {
       <div className='about-cont'>
         <div className='about-flex'>
           <div className='div-box'>
-
+            <img src='Pictures/ria5.jpg' alt="class" className='imgd'/>
           </div>
           <div className="text-box">
             <div>
@@ -36,7 +36,6 @@ function About() {
             <h5>5 years Guarantee</h5>
           </div>
         </div>
-        <img src='Pictures/ria5.jpg' width={300} height={270} alt="class" className='imgd'/>
       </div>
     </div>
   )

@@ -71,7 +71,7 @@
 }
 @media screen and (max-width:500px){
     .cont-container{
-        height: 730px;
+        height: 740px;
     }
     .cont-flex{
         flex-direction: column;
