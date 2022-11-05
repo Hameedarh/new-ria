@@ -21,12 +21,13 @@
 }
 .text-div h1{
     font-size: 3rem;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
 }
 .text-div p{
     font-size: 1.3rem;
     /* font-weight: bolder; */
-    word-spacing: 0.7rem;
+    word-spacing: 0.2rem;
+    margin-top: .8rem;
 }
 .top-but{
     display: flex;
@@ -75,7 +76,7 @@
     }
     .text-div p{
       font-size: 1rem;
-      word-spacing: 0.4rem;
+      word-spacing: 0.2rem;
   }
   }
   @media screen and (max-width:350px){
@@ -88,7 +89,7 @@
      .text-div p{
         text-align: center;
        font-size: 1rem;
-       word-spacing: 0.4rem;
+       word-spacing: 0.2rem;
    }
    .top-but button{
     padding: 15px 30px;

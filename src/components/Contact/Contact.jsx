@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import {  WhatsappLogo, FacebookLogo } from 'phosphor-react'
+import {  WhatsappLogo } from 'phosphor-react'
 
 function Contact() {
   return (
@@ -11,8 +11,7 @@ function Contact() {
                     <div className='con-name'>
                         <h3><span>RIA</span>&nbsp;Autorefurbish</h3>
                         <div>
-                            <FacebookLogo size={32} color='#2d2d2d'/>
-                            <WhatsappLogo size={32} color='#2d2d2d'/>
+                            <a href="https://wa.me/2348033041929" ><WhatsappLogo size={32} color='#2d2d2d'/></a>
                         </div>
                     </div>
                 </div>
@@ -29,11 +28,11 @@ function Contact() {
                     </div>
                     <div>
                         <p className='phead'>Phone Number</p>
-                        <a href="https://wa.me/08033041929" ><p  className='con-info'>08033041929</p></a>
+                       <p  className='con-info'>08124132491</p>
                     </div>
                     <div>
                         <p className='phead'>Email</p>
-                        <a href="mailto:abisolahamidat@gmail.com"><p className='con-info info2'>abisolahamidat@gmail.com</p></a>
+                        <a href="mailto:rabiuishola@gmail.com"><p className='con-info info2'>rabiuishola@gmail.com</p></a>
                     </div>
                 </div>
                 <div className='map'>

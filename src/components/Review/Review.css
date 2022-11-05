@@ -13,6 +13,12 @@
 .rev-head{
     font-size: 22px;
 }
+.rev-hr hr{
+    width:170px;
+    border: 2px solid rgba(52,152,219,1);
+    border-radius: 4px;
+    color: rgba(52,152,219,1);
+}
 .rev-img{
     background-color: rgb(28, 29, 29);
     position: relative;
@@ -47,7 +53,7 @@
         height: 270px;
     }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:650px){
     .rev-flex{
         flex-direction: column-reverse;
     }

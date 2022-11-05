@@ -7,8 +7,11 @@ function Services() {
     <div className='ser-container' id='services'>
       <div className='ser-cont'>
         <div className='ser-text'>
-          <p style={{color:'rgba(52,152,219,1)'}} className="center-text">WHAT YOU GET FROM US</p>
-          <p className="center-text text2">Our Services</p>
+          <div className='hr-center'>
+            <p className="center-text text2" style={{color:'rgba(52,152,219,1)'}}>Our Services</p>
+            <hr/>
+          </div>
+          
           <p className='ser-jus'>
             We use <span style={{color:"rgb(52,152,219) "}}>High-Quality</span> paints, automated baking oven, car waxing/buffing to ensure high quality of service and a glossy finish is delivered to our prestigious clients.
           </p>
@@ -33,7 +36,7 @@ function Services() {
                   <img src="Pictures/ria13.jpg" alt='oven'/>
                 </div>
                 <div className='serv'>
-                  <img src="Pictures/sik.jpg" alt='buffing'/>
+                  <img src="Pictures/ria22.jpeg" alt='buffing'/>
                 </div>
                 <div className='serv'>
                   <img src="Pictures/ria24.jpeg" alt='buffing'/>

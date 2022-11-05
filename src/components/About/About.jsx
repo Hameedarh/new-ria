@@ -12,8 +12,10 @@ function About() {
           </div>
           <div className="text-box">
             <div>
-              <p style={{color:'rgba(52,152,219,1)'}}>RIA AUTOREFURBISHING CENTER</p>
-              <p className='about-flexhead'>About Us</p>
+              <div className="about-hr">
+                <p className='about-flexhead' style={{color:'rgba(52,152,219,1)'}}>About Us</p>
+                <hr/>
+              </div>
               <p className='about-flexp'>RIA Auto Refurbishing Centre is the leading destination for vehicle refurbishment in Abuja.
               We use high quality sikkens products: a highly durable, high build, solvent-borne opaque that provides a satin paint-like finish on exterior surfaces.</p>
             </div>
@@ -21,16 +23,16 @@ function About() {
         </div>
         <div className='top-div'>
           <div className='top-box box1'>
-            <Smiley size={32} />
+            <Smiley size={45} />
             <h5>Great Customer Satisfaction</h5>
           </div>
-          <div className='top-box box2'>
-            <ThumbsUp size={32} />
+          <div className='top-box box1'>
+            <ThumbsUp size={45} />
             <h5>High Quality Paints</h5>
             <h5> effective job done</h5>
           </div>
           <div className='top-box box1'>
-            <Medal size={32} />
+            <Medal size={45} />
             <h5>5 years Guarantee</h5>
           </div>
         </div>
