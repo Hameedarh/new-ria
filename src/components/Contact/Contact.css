@@ -66,12 +66,12 @@
         width: 100%;
     }
     .cont-container{
-        height: 600px;
+        height: 610px;
     }
 }
 @media screen and (max-width:500px){
     .cont-container{
-        height: 720px;
+        height: 730px;
     }
     .cont-flex{
         flex-direction: column;
