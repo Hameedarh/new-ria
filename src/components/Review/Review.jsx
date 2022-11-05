@@ -11,7 +11,7 @@ function Review() {
             <div className='rev-text'>
                 <div>
                   <div className='rev-hr'>
-                    <p className='rev-head'>What Clients say?</p>
+                    <p className='rev-head' style={{color:'rgba(52,152,219,1)'}}>What Clients say?</p>
                     <hr/>
                   </div>
                     <div className='review'>
